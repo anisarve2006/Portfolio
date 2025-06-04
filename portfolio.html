@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anirudh | Software Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="contacts.css" />
+    <link rel="stylesheet" href="techStack.css" />
+    <link rel="stylesheet" href="social_media.css" />
+    <link rel="stylesheet" href="footer.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Anirudh.dev</div>
+        <nav id="navLinks" class="nav-links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contacts</a>
+            <a href="#tech">Tech</a>
+        </nav>
+        <div id="hamburger" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Hello <span class="dot">.</span></h2>
+            <h1>I’m <span class="highlight">Anirudh</span></h1>
+            <h2 class="title">Building Roomate - Room Sharing Platform</h2>
+            <div class="buttons">
+                <a href="#projects" class="btn primary">Got a project?</a>
+                <a href="#" class="btn outline" id="resumeBtn">My resume</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="circle-glow">
+                <img src="images/picofme.png" alt="Anirudh" />
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2 class="section-title">About Me</h2>
+                <p data-aos="fade-left">
+                     I’m <span class="highlight">Anirudh</span>, a passionate <strong>Full Stack Developer</strong> and electronics enthusiast who loves crafting clean, elegant, and scalable solutions for real-world problems. With a background in Computer Engineering and hands-on experience in both web development and hardware projects, I specialize in turning innovative ideas into reality through modern technologies. 
+                </p>
+                <p data-aos="fade-right">
+                    My focus lies in building fast, accessible, and user-friendly digital products while also exploring embedded systems and IoT. Whether it’s a startup idea, a freelance project, or a circuit on a breadboard, I bring energy, curiosity, and technical expertise to every challenge.
+                </p>
+                <div class="about-stats" data-aos="zoom-in">
+                    <div><span>15+</span><br />Projects</div>
+                    <div><span>10+</span><br />Technologies</div>
+                    <div><span>95%</span><br />Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="projects-section" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-container">
+
+        <div class="project-card" data-aos="zoom-in">
+            <img src="images/roomate.png" alt="Project 1">
+            <div class="project-info">
+                <h3>Roomate</h3>
+                <p>A full-stack web platform to find and share rooms with real-time chat, map integration, and payment-based contact access.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/educationora.png" alt="Project 2">
+            <div class="project-info">
+                <h3>Education Ora</h3>
+                <p>A student resource hub offering study material, viva questions, guides, and books in a well-organized format.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/3D-model-three js.png" alt="Project 3">
+            <div class="project-info">
+                <h3>3D Robot Model</h3>
+                <p>A 3D robot visualization built with Three.js, showcasing modeling, lighting, and object animation in a browser environment.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/brick-breaker-game.png" alt="Project 4">
+            <div class="project-info">
+                <h3>Bricks Breaker</h3>
+                <p>A fun, browser-based brick breaker game made using HTML5 Canvas and JavaScript for interactive gameplay.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/expense-tracker.png" alt="Project 5">
+            <div class="project-info">
+                <h3>Expense Tracker</h3>
+                <p>A full-stack app that allows users to log, categorize, and track expenses with custom categories and monthly summaries.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/time-dilation-analysis.png" alt="Project 6">
+            <div class="project-info">
+                <h3>Time Dilation</h3>
+                <p>A simulation project that visualizes time dilation near massive bodies using PyQt5 and Matplotlib in Python.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/leaflet-map.png" alt="Project 7">
+            <div class="project-info">
+                <h3>Leaflet Map Integration</h3>
+                <p>An interactive map feature using Leaflet.js that shows room listings and nearby transport/landmarks for RoomieConnect.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/local-assistant-lyra.png" alt="Project 8">
+            <div class="project-info">
+                <h3>Lyra : Local Assistant</h3>
+                <p>A voice-based assistant built for offline use cases like local command execution and desktop control in Python.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/spotify-clone.png" alt="Project 9">
+            <div class="project-info">
+                <h3>Spotify Clone</h3>
+                <p>A frontend replica of Spotify with custom playlists, player controls, and responsive layout using HTML, CSS, and JS.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/text-extracter.png" alt="Project 10">
+            <div class="project-info">
+                <h3>Tessarat Text Extractor</h3>
+                <p>An OCR tool that extracts text from images using Tesseract.js and displays it for copy or further use.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/table-filter.png" alt="Project 11">
+            <div class="project-info">
+                <h3>Table Filters</h3>
+                <p>A vanilla JS-based table that supports live filtering, sorting, and searching of dynamic tabular data.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/QR-reader.png" alt="Project 12">
+            <div class="project-info">
+                <h3>QR Reader</h3>
+                <p>A web app that uses your device camera to scan and decode QR codes in real-time using JavaScript libraries.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/QR-generator.png" alt="Project 13">
+            <div class="project-info">
+                <h3>QR Generator</h3>
+                <p>A utility tool to generate QR codes from any text or link input using the QRCode.js library.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/toast-notification.png" alt="Project 14">
+            <div class="project-info">
+                <h3>Custom Toast Notifications</h3>
+                <p>A reusable toast notification system built using JavaScript with options for success, error, and warning alerts.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/Socket-IO-Application.png" alt="Project 15">
+            <div class="project-info">
+                <h3>Chat Room using Socket IO</h3>
+                <p>A real-time chat application supporting multiple users and rooms using Socket.IO, Node.js, and Express.</p>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/theme-toggler.png" alt="Project 16">
+            <div class="project-info">
+                <h3>Theme Toggler</h3>
+                <p>A simple JavaScript component that allows users to switch between light and dark modes dynamically.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <section class="tech-stack" id="tech">
+        <h2 class="section-title" data-aos="fade-up">Tech Stack</h2>
+
+        <div class="tech-stack-grid">
+
+            <!-- Frontend -->
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                <span>HTML5</span>
+            </div>
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="150">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                <span>CSS3</span>
+            </div>
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="250">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                <span>React</span>
+            </div>
+
+            <!-- Backend -->
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                <span>Node.js</span>
+            </div>
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="350">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    alt="Express.js">
+                <span>Express</span>
+            </div>
+
+            <!-- Database -->
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="400">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    alt="MongoDB">
+                <span>MongoDB</span>
+            </div>
+
+            <!-- DevOps & Tools -->
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="450">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                <span>Git</span>
+            </div>
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="500">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                <span>GitHub</span>
+            </div>
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="550">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                <span>VS Code</span>
+            </div>
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="600">
+                <img src="images/razorpay.png" alt="Razorpay">
+                <span>Razorpay</span>
+            </div>
+
+            <!-- Cloud & APIs -->
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="650">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                    alt="Firebase">
+                <span>Firebase</span>
+            </div>
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="700">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                    alt="Postman">
+                <span>Postman</span>
+            </div>
+
+            <!-- Deployment & Hosting -->
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="750">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" alt="Vercel">
+                <span>Vercel</span>
+            </div>
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="800">
+                <img src="https://logowik.com/content/uploads/images/cloudinary-icon8821.logowik.com.webp"
+                    alt="Cloudinary">
+                <span>Cloudinary</span>
+            </div>
+            <div class="stack-card" data-aos="fade-up" data-aos-delay="800">
+                <img src="images/leaflet.png" alt="Leaflet">
+                <span>Leaflet</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contact-section" id="contact">
+        <div class="contact-content">
+            <h2 class="section-title">Let’s Connect</h2>
+            <p class="contact-description">
+                Have a project in mind or just want to say hi? Feel free to drop a message.
+            </p>
+
+            <form class="contact-form" action="https://formspree.io/f/mpwrwper" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="social-section">
+        <h2>Connect With Me</h2>
+        <div class="social-icons">
+            <a href="https://github.com/yourusername" target="_blank" class="social-card">
+                <img src="images/githubIcon.png" alt="GitHub" />
+                <span>GitHub</span>
+            </a>
+
+            <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-card">
+                <img src="images/linkedInIcon.png" alt="LinkedIn" />
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="https://twitter.com/yourusername" target="_blank" class="social-card">
+                <img src="images/twitterIcon.png" alt="Twitter" />
+                <span>Twitter</span>
+            </a>
+
+            <a href="mailto:your@email.com" class="social-card">
+                <img src="images/gmailIcon.png" alt="Email" />
+                <span>Email</span>
+            </a>
+        </div>
+    </section>
+    <button onclick="scrollToTop()" class="scroll-top-btn"><i class="fa-solid fa-turn-up"></i></button>
+    <footer class="site-footer">
+        <div class="footer-wrapper">
+            <!-- About -->
+            <div class="footer-about">
+                <h1>Anirudh</h1>
+                <p>Creating digital solutions with code & creativity.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#tech-stack">Tech Stack</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#resume" id="resume-link">Resume</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="footer-social">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="https://github.com/yourusername" target="_blank">
+                        <img src="images/githubIcon.png"
+                            alt="GitHub">
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank">
+                        <img src="images/linkedInIcon.png"
+                            alt="LinkedIn">
+                    </a>
+                    <a href="mailto:your@email.com">
+                        <img src="images/gmailIcon.png" alt="Email">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Anirudh. Crafted with passion.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="portfolio.js"></script>
+    <script src="resume.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+
+</html>

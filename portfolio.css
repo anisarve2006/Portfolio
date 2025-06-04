@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0e0e11;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    background: #111;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    z-index: 101;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    transition: all 0.4s ease;
+    display: block;
+    margin: 5px;
+}
+
+/* Toggle effect to X */
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 3rem 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero-text h2,
+.hero-text h1 {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text .dot {
+    color: #ff5f56;
+}
+
+.highlight {
+    color: #00ffd0;
+}
+
+.title {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.primary {
+    background-color: #ff5f56;
+    color: #111;
+}
+
+.outline {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.primary:hover,
+.outline:hover {
+    background: #fff;
+    color: #000;
+}
+
+.hero-image .circle-glow {
+    width: 30vw;
+    max-width: 300px;
+    max-height: 300px;
+    height: 30vw;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ff5f56 0%, transparent 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+
+/* About section */
+.about-section {
+  background: #0c0c0c;
+  color: #fff;
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  align-items: center;
+}
+
+.about-image img {
+  width: 300px;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.05);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.about-text p {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.about-stats {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.about-stats div {
+  font-size: 1rem;
+  color: #eee;
+  text-align: center;
+}
+
+.about-stats div span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff5f5f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 200px;
+    margin-bottom: 2rem;
+  }
+
+  .about-stats {
+    justify-content: center;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    .hero {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5rem;
+    }
+
+    .hero-text {
+        font-size: 32px;
+    }
+
+    .hero-text .buttons {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #111;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        padding: 1rem;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+    .buttons {
+      display:flex;
+      justify-content: center;
+    }
+}
