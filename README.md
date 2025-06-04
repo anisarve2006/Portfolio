@@ -60,7 +60,7 @@ root/
 ├── /images
 │ └── (project thumbnails, personal images, icons)
 │
-└── /js
+└── /js       
 └── script.js
 
 
