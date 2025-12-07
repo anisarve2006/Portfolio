@@ -174,6 +174,23 @@ body {
   }
 }
 
+.lightening-overlay{
+  position: absolute;
+  opacity: 0.6;
+}
+.lightening-overlay img{
+  width:100vw;
+  height:100vh;
+}
+@media (max-width:768px){
+  .lightening-overlay{
+    opacity:0.2;
+  }
+  .lightening-overlay img{
+    width:120vw;
+  }
+}
+
 
 .hero-earth {
   position: absolute;
@@ -235,7 +252,7 @@ body {
   width: 36px;
   height: 36px;
   border-radius: 999px;
-  background-image: url("https://images.unsplash.com/photo-1610419923009-f0a50c304f10?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMG1lbnxlbnwwfHwwfHx8MA%3D%3D");
+  background-image: linear-gradient(#302f2f, #292929, #fff);
   background-position: center center;
   object-fit: cover;
   display: flex;
@@ -639,6 +656,11 @@ body {
 .skill-icon {
   font-size: 2rem;
   margin-bottom: 20px;
+  overflow: hidden;
+}
+.skill-icon img{
+  width:80px;
+  height: 80px;
 }
 
 .skill-title {
@@ -667,7 +689,7 @@ body {
 .skill-card:nth-child(4),
 .skill-card:nth-child(6),
 .skill-card:nth-child(8) {
-  grid-row: span 1;
+  grid-row: span 2;
 }
 
 /* responsive: back to simple stack */
@@ -779,6 +801,12 @@ body {
   height: 220px;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+}
+
+.project-media img{
+  object-fit: contain;
+  width:100%;
 }
 
 /* example gradients */
@@ -1295,3 +1323,53 @@ body {
     align-items: flex-start;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EFFECTS */
+
+/* Cards start slightly down and smaller */
+.project-card,
+.skill-card,
+.testimonial-card {
+  opacity: 0;
+  transform: translateY(30px) scale(0.96);
+}
+
+/* Sections start slightly off-axis */
+.about,
+.skills,
+.projects,
+.testimonials,
+.tech-stack,
+.contact-footer {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.about,
+.testimonials {
+  transform: translateX(-30px);
+}
+
+
+
+
+
+
+
+
+
+
+
