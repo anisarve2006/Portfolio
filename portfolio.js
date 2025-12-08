@@ -192,7 +192,7 @@ function setRandomPrimary(colors) {
 
 const COLORS = [
   '#000000ff',
-  '#8b5cf6',
+  '#640ab9ff',
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
