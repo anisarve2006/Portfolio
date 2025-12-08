@@ -185,7 +185,7 @@ body {
   width:100vw;
   height:100vh;
 }
-@media (max-width:500px){
+@media (max-width:768px){
   .lightening-overlay{
     opacity:0.2;
   }
@@ -361,7 +361,7 @@ body {
 
 /* responsive tweaks */
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .nav {
     padding: 0 20px;
   }
@@ -371,7 +371,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .hero-content {
     padding-inline: 12px;
   }
@@ -433,7 +433,7 @@ body {
 }
 
 /* responsive */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .marquee-track {
     padding: 0 24px;
   }
@@ -567,7 +567,7 @@ body {
 }
 
 /* responsive */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .about {
     padding: 80px 24px 80px;
   }
@@ -591,7 +591,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .about-column {
     flex-direction: column;
   }
@@ -696,7 +696,7 @@ body {
 }
 
 /* responsive: back to simple stack */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .skills {
     padding: 80px 24px 80px;
   }
@@ -706,7 +706,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .skills-grid {
     grid-template-columns: 1fr;
   }
@@ -897,7 +897,7 @@ body {
 
 /* responsive */
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .projects {
     padding: 80px 24px 80px;
   }
@@ -1061,7 +1061,7 @@ body {
 
 /* responsive */
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .testimonials {
     padding: 80px 24px 80px;
   }
@@ -1073,7 +1073,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .testimonials-arrow {
     display: none;
   }
@@ -1309,7 +1309,7 @@ body {
 
 /* responsive */
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .contact-footer {
     padding: 80px 24px 32px;
   }
