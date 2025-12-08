@@ -439,7 +439,7 @@ const rightSections = [".skills", ".projects", ".tech-stack", ".contact-footer"]
 leftSections.forEach((sel) => {
   gsap.fromTo(
     sel,
-    { opacity: 0, x: -30 },
+    { opacity: 0 },
     {
       opacity: 1,
       x: 0,
@@ -458,7 +458,7 @@ leftSections.forEach((sel) => {
 rightSections.forEach((sel) => {
   gsap.fromTo(
     sel,
-    { opacity: 0, x: 30 },
+    { opacity: 0 },
     {
       opacity: 1,
       x: 0,
